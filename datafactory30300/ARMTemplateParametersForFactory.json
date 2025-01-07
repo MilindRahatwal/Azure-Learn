@@ -1,0 +1,57 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "datafactory30300"
+		},
+		"AzureSqlDatabase1_password": {
+			"value": ""
+		},
+		"AzureSqlDatabase2_connectionString": {
+			"value": ""
+		},
+		"AzureSqlDatabase3_connectionString": {
+			"value": ""
+		},
+		"AzureSqlDatabase4_connectionString": {
+			"value": ""
+		},
+		"AzureSqlDatabase5_connectionString": {
+			"value": ""
+		},
+		"AzureSqlDatabase6_connectionString": {
+			"value": ""
+		},
+		"AzureSqlDatabase7_connectionString": {
+			"value": ""
+		},
+		"AzureSqlDatabase8_connectionString": {
+			"value": ""
+		},
+		"AzureSqlDatabaseOrderDetails_connectionString": {
+			"value": ""
+		},
+		"AzureSqlDatabaseSalesOrderHeader_connectionString": {
+			"value": ""
+		},
+		"appstore30300_accountKey": {
+			"value": ""
+		},
+		"synapsework3030_connectionString": {
+			"value": ""
+		},
+		"AzureSqlDatabase1_properties_typeProperties_server": {
+			"value": "appdb3030.database.windows.net"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_database": {
+			"value": "appdb"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_userName": {
+			"value": "sqladmin"
+		},
+		"appstore30300_properties_typeProperties_url": {
+			"value": "https://appstore30300.dfs.core.windows.net/"
+		}
+	}
+}
