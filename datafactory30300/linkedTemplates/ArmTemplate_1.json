@@ -657,6 +657,7 @@
 				"typeProperties": {
 					"location": {
 						"type": "AzureBlobFSLocation",
+						"fileName": "ActivityLog-01.csv",
 						"fileSystem": "synapse"
 					},
 					"columnDelimiter": ",",
