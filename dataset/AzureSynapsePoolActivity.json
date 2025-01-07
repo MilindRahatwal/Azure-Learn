@@ -1,0 +1,30 @@
+{
+	"name": "AzureSynapsePoolActivity",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "synapsework3030",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlDWTable",
+		"schema": [
+			{
+				"name": "TIME",
+				"type": "date"
+			},
+			{
+				"name": "Operationname",
+				"type": "varchar"
+			},
+			{
+				"name": "Resourcegroup",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "PoolActivitylog"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
